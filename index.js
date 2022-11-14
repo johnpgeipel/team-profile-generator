@@ -173,16 +173,6 @@ const addEmployee = () => {
                 break;
         };
 
-        // if (role === "Engineer") {
-        //     employee = new Engineer (name, id, email, github);
-        //     console.log(employee);
-        // }
-
-        // if (role === "Intern") {
-        //     employee = new Intern (name, id, email, school);
-        //     console.log(employee);
-        // }
-
         teamArray.push(employee);
 
         if (confirmAddEmployee) {
